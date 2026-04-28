@@ -1,0 +1,8 @@
+git config --global user.email "2226954215@qq.com"
+git config --global user.name "Lzf"
+git remote add origin git@github.com:huijian233/learngit.git
+git remote add origin git@github.com:huijian233/learngit.git
+ssh-keygen -t rsa -C "2226954215@qq.com"
+git clone git@github.com:huijian233/gitskills.git
+
+我在本地创建了一个仓库C:\Users\22269\learngit，并且将这个仓库的代码推送到了GitHub上面，后面我在GitHub上面创建了一个仓库gitskills，使用git clone git@github.com:huijian233/gitskills.git从GitHub克隆这个仓库后，这个仓库在电脑上的地址是C:\Users\22269\learngit\gitskills，为什么会这样？
